@@ -3,14 +3,14 @@
 ## Overview
  
 Aiming at the problem that the differences in heterogeneous remote sensing images in imaging modes, time phases, and resolutions make matching difficult, a new deep learning feature matching method is proposed. The results show that the algorithm in this paper has strong adaptability and robustness, and is superior to other algorithms in terms of the number and distribution of matching points, efficiency, and adaptability.
-This repository contains the implementation of the following paper:
+This repository contains the implementation of the following paper: 
 
 ```text
 "A Heterogeneous Remote-Sensing Image Matching Method Based on Deep Learning Feature" （in Chinese）
 一种基于深度学习特征的异源遥感影像匹配算法
 ```
 The main idea and code of feature extracting in this repository is based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
-
+ 
 ## Matching result：
 ![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/1.jpeg)
 Matching result between google earth images （in 2009 & 2018）
