@@ -11,7 +11,7 @@ This repository contains the implementation of the following paper:
 ```
 The main idea and code of feature extracting in this repository is based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
  
-## Matching result：
+## Matching result： 
 ![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/1.jpeg)
 Matching result between google earth images （in 2009 & 2018）
 
