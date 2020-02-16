@@ -1,7 +1,6 @@
 import numpy as np
 
 
-
 def plot_matches(ax, image1, image2, keypoints1, keypoints2, matches,
                  keypoints_color='r', matches_color=None, plot_matche_points=True, matchline = True, matchlinewidth = 0.5,
                  alignment='horizontal'):
