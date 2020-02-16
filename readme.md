@@ -1,0 +1,57 @@
+# Image Matching using CNN feature
+
+## Overview
+
+Aiming at the problem that the differences in heterogeneous remote sensing images in imaging modes, time phases, and resolutions make matching difficult, a new deep learning feature matching method is proposed. The results show that the algorithm in this paper has strong adaptability and robustness, and is superior to other algorithms in terms of the number and distribution of matching points, efficiency, and adaptability.
+This repository contains the implementation of the following paper:
+
+```text
+"A Heterogeneous Remote-Sensing Image Matching Method Based on Deep Learning Feature" （in Chinese）
+一种基于深度学习特征的异源遥感影像匹配算法
+```
+The main idea of cnn feature in this repository is based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
+
+## Matching result：
+![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/1.jpeg)
+Matching result between google earth images （in 2009 & 2018）
+
+![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/2.jpeg)
+Matching result between uav optical  image and thermal infrared image
+
+![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/3.jpeg)
+Matching result between SAR image （GF-3) & optical satellite(ZY-3)  image
+
+## Getting start:
+Python 3.7+ is recommended for running our code. [Conda](https://docs.conda.io/en/latest/) can be used to install the required packages:
+### Dependencies
+
+- PyTorch 1.4.0+
+- OpenCV
+- SciPy
+- Matplotlib
+- skimage
+
+### Dataset
+We collected a set of test data named "df-sm-data", including space-borne SAR and visible light sensors, drone thermal infrared sensors, and Google Earth images. see "df-sm-data" in this repository.
+
+### Downloading the models
+
+The off-the-shelf **VGG16** weights and their tuned counterpart can be downloaded by running:
+
+```bash
+mkdir models
+wget https://dsmn.ml/files/d2-net/d2_tf.pth -O models/d2_tf.pth
+```
+
+## Usage
+`cnnmatching.py` contains the majority of the code. Run `cnnmatching.py` for testing:
+```bash
+python3 cnnmatching.py
+```
+You may change the images path in the code just like:
+```bash
+imgfile1 = 'df-ms-data/1/df-googleearth-500-20091227.jpg'
+imgfile2 = 'df-ms-data/1/df-googleearth-500-20181029.jpg'
+```
+
+ 
