@@ -9,7 +9,7 @@ This repository contains the implementation of the following paper:
 "A Heterogeneous Remote-Sensing Image Matching Method Based on Deep Learning Feature" （in Chinese）
 一种基于深度学习特征的异源遥感影像匹配算法
 ```
-The main idea and code of feature extracting in this repository is based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
+The main idea and code of feature extracting in this repository are based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
  
 ## Matching result： 
 ![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/1.jpeg)
