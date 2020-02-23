@@ -32,7 +32,7 @@ Python 3.7+ is recommended for running our code. [Conda](https://docs.conda.io/e
 - skimage
 
 ### Dataset
-We collected a set of test data named "df-sm-data", including images from space-borne SAR and visible light sensors, drone thermal infrared sensors, and Google Earth images. see "df-sm-data" in this repository.
+We collected a set of test data named "df-sm-data", including images from space-borne SAR and visible light sensors, drone thermal infrared sensors, and Google Earth images. You may find them in the directory  "df-sm-data" in this repository.
 
 ### Downloading the models
 
