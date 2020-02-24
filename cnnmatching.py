@@ -13,11 +13,11 @@ from skimage import transform
 start = time.perf_counter()
 
 _RESIDUAL_THRESHOLD = 30
-
 #Test1nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
-imgfile1 = 'df-ms-data/1/df-googleearth-500-20091227.jpg'
-imgfile2 = 'df-ms-data/1/df-googleearth-500-20181029.jpg'
+imgfile1 = 'df-ms-data/1/df-googleearth-1k-20091227.jpg'
+imgfile2 = 'df-ms-data/1/df-googleearth-1k-20181029.jpg'
 imgfile1 = 'df-ms-data/1/df-uav-sar-500.jpg'
+
 
 start = time.perf_counter()
 

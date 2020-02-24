@@ -9,7 +9,7 @@ This repository contains the implementation of the following paper:
 "A Heterogeneous Remote-Sensing Image Matching Method Based on Deep Learning Feature" （in Chinese）
 一种基于深度学习特征的异源遥感影像匹配算法
 ```
-The main idea and code of feature extracting in this repository is based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
+The main idea and code of feature extracting in this repository are based on [D2-Net](https://dsmn.ml/publications/d2-net.html).
  
 ## Matching result： 
 ![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/1.jpeg)
@@ -20,6 +20,9 @@ Matching result between uav optical  image and thermal infrared image
 
 ![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/3.jpeg)
 Matching result between SAR image （GF-3) & optical satellite(ZY-3)  image
+
+![Image text](https://raw.githubusercontent.com/lan-cz/cnn-matching/master/result/4.jpeg)
+Matching result between satellite image & map
 
 ## Getting start:
 Python 3.7+ is recommended for running our code. [Conda](https://docs.conda.io/en/latest/) can be used to install the required packages:
@@ -32,7 +35,7 @@ Python 3.7+ is recommended for running our code. [Conda](https://docs.conda.io/e
 - skimage
 
 ### Dataset
-We collected a set of test data named "df-sm-data", including images from space-borne SAR and visible light sensors, drone thermal infrared sensors, and Google Earth images. see "df-sm-data" in this repository.
+We collected a set of test data named "df-sm-data", including images from space-borne SAR and visible light sensors, drone thermal infrared sensors, and Google Earth images. You may find them in the directory  "df-sm-data" in this repository.
 
 ### Downloading the models
 
